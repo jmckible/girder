@@ -1,0 +1,187 @@
+/*  
+Theme Name: Girder
+Description: Theme for <a href="http://tuples.us">Grinding Rails</a>.
+Version: 1.0
+Author: Jordan McKible
+Author URI: http://jordan.mckible.com
+*/
+
+
+a { text-decoration: none;  color: #06f; }
+a:hover { color: #f00; }
+a img   { border: 0; }
+
+
+#AddComment{background-color: #eee;
+  margin: 0 0 2em 0;
+  padding: 1em 0.25em 1em 0.5em;}
+#AddComment input{border: 1px solid #666;font-size: 125%;}
+#AddComment textarea{border: 1px solid #666; width: 90%; height: 8em;font-size: 125%;}
+#AddComment p{margin-bottom: 1em;}
+#AddComment #submit{font-size: 100%;}
+
+blockquote{
+  background-image: url(/wp-content/themes/girder/images/quote.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 0;
+  padding: 10px 30px 0 30px;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: helvetica, verdana, sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+/* adjustment for IE5 */
+body {
+	font-size: small; /* IE5 Win */
+  voice-family: "\"}\""; 
+  voice-family: inherit;
+  font-size: medium;
+}
+
+#Comments{
+  margin: 0 0 2em 0;
+  padding: 1em 0.25em 1em 0.5em;
+  list-style: none;
+  background-color: #eee;
+}
+#Comments a{color: #666; text-decoration: underline;}
+
+#Content{
+  width: 720px;
+  margin: 0 auto;
+}
+
+#Copy{
+  float: left;
+  width: 510px;
+  margin: 0.7em 0 0 0;
+}
+
+
+#Footer{
+  margin: 50px 0 50px 0;
+  padding: 0.25em 0;
+  border-top: 1px solid #ddd;
+  clear:both;
+}
+#Footer p{
+  margin: 0;
+  padding: 0;
+  color: #999;
+  font-size: 90%;
+  line-height: 1em;
+}
+
+h1{
+  font-size: 1.66em;
+  margin: 0 0 0 0;
+  padding: 0;
+  font-weight: normal;
+	line-height: 0.9em;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+p{
+  margin: 0 0 2em 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-family: georgia, serif; 
+}
+
+#Pager {
+  height: 10px; 
+  background-color: #06f;
+  margin-bottom: 10px;
+}
+
+.post{
+  margin: 0 0 4em 0;
+  padding: 0;
+}
+.post .more-link{font-family: helvetica, verdana, sans-serif;}
+.post .byline{margin-bottom: 1.2em; line-height: 1.5em;color: #666; }
+.post .byline cite{font-style: normal; font-weight: bold;}
+.post h1 a{color: #333;}
+.post h1 a:hover{text-decoration: underline;}
+.post .byline{margin-bottom: 1em;}
+.post .comments{margin-top: -1em;border-top: 1px solid #ddd;padding: 0.5em 0;}
+
+pre{
+  margin: -0.5em 0 2em 0;
+  overflow: auto;
+  background: #eee none repeat scroll 0%;
+  padding: 0.5em;
+  font-family:"bitstream vera sans mono",monaco,"lucida console","courier new",courier,serif;
+  font-size: 0.8em;
+	-moz-border-radius: 1em;
+	line-height: 1.68em;
+}
+
+#Sidebar{
+  margin: 5em 0 0 580px;
+  width: 217px;
+  font-size: 80%;
+  color: #666;
+}
+
+
+#Sidebar h1{
+  font-size: 130%;
+  margin-bottom: 0.24em;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+
+#Sidebar h1 a { color: #666;}
+#Sidebar h1 a:hover { color: #06f;}
+
+#Sidebar p{
+  font-family: helvetica;
+	line-height: 1.75em;
+	margin-bottom: 1.7em;
+}
+
+#Sidebar ul{
+  list-style: none;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+#Sidebar ul li{ margin-bottom: 0.25em; line-height: 1.6em;}
+
+
+.search .text{
+  width: 8em;
+  border: 1px solid #666;
+  float: left;
+}
+.search .button{
+  margin-left: 0.5em;
+  border: 1px solid #666;
+}
+
+textarea{font-family: helvetica, verdana, sans-serif;}
+
+ul{
+  font-family: georgia, serif;
+  line-height: 1.4em;
+  margin: 0 0 1em 0;
+}
+
+li{
+  margin: 0 0 1.3em 0;
+  padding: 0;
+}
